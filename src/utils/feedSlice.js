@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import userSlice from "./userSlice";
 
 const feedSlice = createSlice({
   name: "feed",
