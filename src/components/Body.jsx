@@ -13,6 +13,7 @@ const Body = () => {
   const userData = useSelector((store) => store.user);
 
   const fetchUser = async () => {
+    console.log("fetchUser from Body.jsx fired");
     if (userData) return;
 
     try {
